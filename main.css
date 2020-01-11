@@ -48,8 +48,10 @@ h1 {
     color: #FFFFFF;
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     text-align: center;
-    background-color: #141414;
+    background-color: #222831;
     text-transform: uppercase;
+
+    box-shadow: 0px 5px 10px rgb(104, 104, 104);
 }
 
 .btn:hover {
@@ -63,6 +65,9 @@ h1 {
 }
 
 @media (max-width: 650px) {
+    .wrapper {
+        background-image: url('https://images.pexels.com/photos/2508565/pexels-photo-2508565.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') center;
+    }
     h1 {
         letter-spacing: 0.2em;
     }
