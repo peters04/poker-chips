@@ -26,6 +26,7 @@ h1 {
     text-align: center;
     color: #393e46;
     font-weight: 700;
+    text-shadow: 0 5px 10px rgb(104, 104, 104);
 }
 
 .buttons {
